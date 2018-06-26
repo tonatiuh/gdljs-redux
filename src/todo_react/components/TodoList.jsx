@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 const TodoList = ({ todos, toggleTodo }) => (
   <ul>
@@ -9,6 +8,7 @@ const TodoList = ({ todos, toggleTodo }) => (
         style={{
           textDecoration: todo.completed ? 'line-through' : 'none'
         }}
+        key={todo.id}
       >
         {todo.text}
       </li>

@@ -1,6 +1,6 @@
 import React from 'react'
 import Filter from './Filter'
-import { VisibilityFilters } from '../actions'
+import { VisibilityFilters } from './../helpers'
 
 const Footer = ({ visibilityFilter, setVisibilityFilter }) => (
   <div>

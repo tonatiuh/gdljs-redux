@@ -2,12 +2,7 @@ import React from 'react'
 import AddTodo from './components/AddTodo'
 import TodoList from './components/TodoList'
 import Footer from './components/Footer'
-
-export const VisibilityFilters = {
-  SHOW_ALL: 'SHOW_ALL',
-  SHOW_COMPLETED: 'SHOW_COMPLETED',
-  SHOW_ACTIVE: 'SHOW_ACTIVE'
-}
+import { VisibilityFilters } from './helpers'
 
 let nextTodoId = 0
 

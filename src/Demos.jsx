@@ -17,8 +17,10 @@ const Demos = () => (
 
       <hr />
 
-      <Route exact path="/" component={TodoRedux} />
-      <Route exact path="/todo-react-only" component={TodoReact} />
+      <div style={{ marginLeft: '2em' }}>
+        <Route exact path="/" component={TodoRedux} />
+        <Route exact path="/todo-react-only" component={TodoReact} />
+      </div>
     </div>
   </Router>
 );
