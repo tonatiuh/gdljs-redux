@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import TodoRedux from './todo_redux';
+import TodoReact from './todo_react';
 
 const Demos = () => (
   <Router>
@@ -17,7 +18,7 @@ const Demos = () => (
       <hr />
 
       <Route exact path="/" component={TodoRedux} />
-      <Route path="/todo-react-only" render={() => <h3>todo react only</h3> } />
+      <Route exact path="/todo-react-only" component={TodoReact} />
     </div>
   </Router>
 );
