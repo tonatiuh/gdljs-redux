@@ -1,14 +1,14 @@
 import React from 'react'
-import Footer from './Footer'
 import AddTodoContainer from '../containers/AddTodoContainer'
-import VisibleTodoListContainer from '../containers/VisibleTodoListContainer'
+import TodoListContainer from '../containers/TodoListContainer'
+import Footer from './Footer'
 
 const App = () => (
   <div>
     <h3> Todo App with React & Redux </h3>
 
     <AddTodoContainer />
-    <VisibleTodoListContainer />
+    <TodoListContainer />
     <Footer />
   </div>
 )
